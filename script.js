@@ -15,24 +15,15 @@ function moveButton() {
     noButton.style.top = offsetY + 'px';
 }
 
-
 function showConfirmation() {
     const confirmationOverlay = document.getElementById('confirmationOverlay');
-    confirmationOverlay.style.display = 'flex';
-}
-
-function submitForm() {
-    const confirmationOverlay = document.getElementById('confirmationOverlay');
     confirmationOverlay.innerHTML = `
-        <div style="display: block; text-align: center;">
-            <img src="assets/bunny.gif" alt="Confirmation Image" style="display: block; margin: 0 auto;">
-            <br>
-            <h2 style="display: block; margin: 0 auto; color: white">See you there...</h2>
-        </div>
+    <div style="display: block; text-align: center;">
+        <img src="assets/bunny.gif" alt="Confirmation Image" style="display: block; margin: 0 auto;">
+    <br>
+        <h2 style="display: block; margin: 0 auto; color: white">See you there...</h2>
+    </div>
     `;
-    setTimeout(() => {
-        confirmationOverlay.style.display = 'none';
-    }, 20000);
-    return false; 
+    confirmationOverlay.style.display = 'flex';
 }
 
