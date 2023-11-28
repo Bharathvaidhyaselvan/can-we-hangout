@@ -21,7 +21,7 @@ function showConfirmation() {
     <div style="display: block; text-align: center;">
         <img src="assets/bunny.gif" alt="Confirmation Image" style="display: block; margin: 0 auto;">
     <br>
-        <h2 style="display: block; margin: 0 auto; color: white">See you there...</h2>
+        <h2 style="display: block; margin: 0 auto; color: white">Yeah! Let's Meet</h2>
     </div>
     `;
     confirmationOverlay.style.display = 'flex';
